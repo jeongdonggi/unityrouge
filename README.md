@@ -4,4 +4,4 @@
 
 # 실제 플레이 영상
 
-위에 올려놓음
+<https://www.youtube.com/watch?v=orldVwRH0I4>
