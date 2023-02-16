@@ -1,0 +1,548 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1671347585206781, "dur": 932895, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671347585206797, "dur": 4035, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671347585210835, "dur": 33394, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671347585244231, "dur": 541638, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671347585785870, "dur": 340157, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671347586126028, "dur": 13648, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671347586140845, "dur": 27, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1671347585368061, "dur": 397535, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671347585369126, "dur": 52122, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671347585747915, "dur": 5205, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671347585753127, "dur": 12444, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671347585754109, "dur": 10197, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671347585770894, "dur": 1513, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671347585769947, "dur": 2496, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671347586141106, "dur": 743, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671347585824239, "dur":2359, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347585826607, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671347585826658, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671347585826671, "dur":640, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671347585827348, "dur":551, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347585827900, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109463, "dur":317, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109780, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109791, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109793, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109798, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109800, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109805, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109806, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109811, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109812, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109817, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109819, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109824, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109825, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109830, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109832, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109836, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109837, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109842, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109844, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109849, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109850, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109855, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109856, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109861, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109877, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586109879, "dur":2266, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671347585827334, "dur":575, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585827912, "dur":8421, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585836355, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671347585836362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585838178, "dur":803, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671347585838986, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671347585839086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585839365, "dur":5213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671347585844579, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671347585845067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585845214, "dur":3218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671347585848581, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585849166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585849562, "dur":4561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585854187, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585854430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585854434, "dur":3339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585857883, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585858376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585858383, "dur":5474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585863929, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585864287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585864294, "dur":6010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585870401, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585870870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585870878, "dur":6253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585877248, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585877737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585877743, "dur":7899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585885755, "dur":1342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585887103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585887111, "dur":11124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585898321, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585898916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585898925, "dur":7016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585906017, "dur":1321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585907343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585907350, "dur":8826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585916262, "dur":706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585916977, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585916988, "dur":7230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585924357, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585924861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585924871, "dur":5298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671347585930249, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671347585930322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585930330, "dur":8516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671347585938941, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1671347585939019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671347585939026, "dur":14675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1671347585953785, "dur":155679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585828157, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585828157, "dur":8197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585836358, "dur":1059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1671347585837421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585839773, "dur":4713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1671347585844625, "dur":451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671347585845080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585845306, "dur":3513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671347585848909, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585849283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585849641, "dur":4251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585853978, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585854272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585854277, "dur":3536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585857903, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585858463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585858469, "dur":8501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585867083, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585867398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585867405, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585872452, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585872861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585872923, "dur":4650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585877685, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585878206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585878215, "dur":7718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585886050, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585886552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585886592, "dur":5826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585892630, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585893275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585893284, "dur":18291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585911656, "dur":4307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585915971, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585915981, "dur":17725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671347585937293, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1671347585937871, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671347585937886, "dur":31148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1671347585969088, "dur":140398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585827525, "dur":406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585827931, "dur":8538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585836472, "dur":1172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671347585837647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585839790, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671347585844499, "dur":1383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1671347585845890, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585845902, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1671347585848951, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585850143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585850149, "dur":6376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585856637, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585857140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585857149, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585861354, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585861884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585861893, "dur":8617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585870599, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585870948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585870954, "dur":5335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585876395, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585877041, "dur":82, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585877130, "dur":6034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585883314, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585883661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585883669, "dur":6540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585890316, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585890786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585890794, "dur":4161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585895054, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585895559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585895568, "dur":8598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585904245, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585904503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585904508, "dur":4848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585909471, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585910083, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585910095, "dur":8314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585918491, "dur":1310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585919810, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585919820, "dur":12020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671347585931916, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671347585932001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671347585932006, "dur":20218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1671347585952343, "dur":157137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585827612, "dur":331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585827944, "dur":8472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585836420, "dur":1232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1671347585837654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585839882, "dur":4827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1671347585844817, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1671347585845294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585845302, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1671347585848370, "dur":1447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585849852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585850045, "dur":7103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585857245, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585857680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585857687, "dur":5828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585863661, "dur":1464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585865134, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585865148, "dur":4981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585870230, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585870620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585870628, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585874840, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585875239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585875244, "dur":6187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585881532, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585882121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585882126, "dur":5733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585887942, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585888259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585888266, "dur":5309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585893657, "dur":1499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585895161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585895210, "dur":8091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585903389, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585903640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585903647, "dur":5749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585909525, "dur":1087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585910620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585910630, "dur":12185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585922925, "dur":13602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585936532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671347585936541, "dur":42940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671347585979570, "dur":129891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585827684, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585827953, "dur":8447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585836403, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671347585836955, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585840611, "dur":4233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671347585845013, "dur":4794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585849813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585850293, "dur":6509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585856895, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585857270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585857276, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585860739, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585861147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585861154, "dur":5946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585867185, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585867695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585867702, "dur":5010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585872817, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585873299, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585873310, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585877280, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585877700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585877708, "dur":7723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585885537, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585885958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585885965, "dur":4460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585890511, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585890826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585890831, "dur":11319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585902818, "dur":1019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585903844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585903854, "dur":4679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585908626, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585909139, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585909147, "dur":9418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585918659, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585919081, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585919093, "dur":8641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585927817, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585928205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585928210, "dur":4471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671347585932771, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671347585932885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585932892, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671347585936309, "dur":578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1671347585936891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585936895, "dur":2610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1671347585939608, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671347585939705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671347585939714, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671347585943148, "dur":166312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585827761, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585827957, "dur":8421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585836381, "dur":1168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671347585837553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585839494, "dur":5158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1671347585844999, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1671347585845286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585845328, "dur":5040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1671347585850468, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585850930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585850939, "dur":6232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585857273, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585857732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585857737, "dur":4797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585862637, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585862939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585862944, "dur":7439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585870649, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585871044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585871049, "dur":5620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585876802, "dur":1015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585877821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585877826, "dur":10351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585888285, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585888742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585888750, "dur":10942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585899808, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585900073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585900082, "dur":12464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585912673, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585913185, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585913197, "dur":7097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585920384, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585921025, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585921035, "dur":6704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671347585927821, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1671347585928081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585928851, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1671347585930515, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1671347585930580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671347585930585, "dur":178776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1671347586109431, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1671347586109434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585827817, "dur":146, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585827963, "dur":8463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585836430, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1671347585836750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585840027, "dur":4835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1671347585845047, "dur":26443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585871495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585871642, "dur":11683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585883422, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585884304, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585884314, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585889056, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585889482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585889489, "dur":5292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585894914, "dur":2161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585897082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585897091, "dur":8388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585905587, "dur":1244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585906835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585906840, "dur":5937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585912920, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585913465, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585913476, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585918037, "dur":2326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585920367, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671347585920375, "dur":28653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671347585949121, "dur":160348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585827891, "dur":81, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585827972, "dur":8391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585836366, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1671347585836701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585840149, "dur":4112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1671347585844328, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1671347585844499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585845216, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1671347585848044, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1671347585848259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585848722, "dur":8591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1671347585857449, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585857783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585857787, "dur":4478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585862484, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585862916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585862925, "dur":6526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585869726, "dur":1353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585871082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585871086, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585876523, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585877177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585877185, "dur":4065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585881413, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585881824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585881831, "dur":4201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585886138, "dur":713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585886858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585886866, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585890918, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585891209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585891215, "dur":6594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585897887, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585898473, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585898484, "dur":8162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585906726, "dur":8391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585915124, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585915135, "dur":24398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671347585939624, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1671347585939720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671347585939725, "dur":4907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1671347585944725, "dur":164743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585827955, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585827955, "dur":8430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585836387, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1671347585837049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585840930, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1671347585845070, "dur":7967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1671347585853044, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585853053, "dur":5459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1671347585858610, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585859109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585859117, "dur":4712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585863906, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585864392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585864397, "dur":5612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585870115, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585871128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585871133, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585875213, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585875579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585875585, "dur":5801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585881498, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585882118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585882125, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585885644, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585886069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585886076, "dur":4473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585890657, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585890995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585891001, "dur":12039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585903139, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585903414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585903421, "dur":4587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585908094, "dur":937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585909039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585909048, "dur":8009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585917518, "dur":3494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585921019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585921029, "dur":20053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671347585941159, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1671347585941470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671347585941677, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1671347585943984, "dur":165482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585828017, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585828017, "dur":8392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585836412, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1671347585836733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585840261, "dur":4667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1671347585845088, "dur":1161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight.exe" }}
+,{ "pid":12345, "tid":10, "ts":1671347585846253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585846258, "dur":7775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight.exe" }}
+,{ "pid":12345, "tid":10, "ts":1671347585854159, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585854526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585854532, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585858716, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585859109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585859117, "dur":8251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585867462, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585867759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585867765, "dur":5040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585874004, "dur":1095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585875106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585875115, "dur":6304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585881510, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585882112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585882122, "dur":5985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585888388, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585888837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585888845, "dur":5369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585894297, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585894700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585894710, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585899302, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585899550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585899559, "dur":4448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585904111, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585904379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585904387, "dur":6965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585911462, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585911967, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585911979, "dur":10117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585922182, "dur":874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585923061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671347585923072, "dur":20481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671347585943637, "dur":165821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585828088, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585828088, "dur":8304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585836396, "dur":1245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1671347585837644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585839748, "dur":4722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1671347585844582, "dur":1358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1671347585845944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585845950, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1671347585849449, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585850328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585850334, "dur":6184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585856764, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585857233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585857256, "dur":3693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585861031, "dur":1184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585862222, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585862232, "dur":13219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585875594, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585876208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585876217, "dur":4962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585881371, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585881805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585881814, "dur":6093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585888331, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585889135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585889144, "dur":8169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585897395, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585897666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585897675, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585901519, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585901812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585901820, "dur":4400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585906324, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585906778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585906788, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585911533, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585911987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585911995, "dur":5974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585918099, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585918561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585918571, "dur":4151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585922842, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585923417, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585923426, "dur":5309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671347585928813, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1671347585928893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585928997, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1671347585931851, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671347585931950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671347585931957, "dur":12642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671347585944690, "dur":164775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671347585827400, "dur":519, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671347585827919, "dur":8559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671347585836479, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1671347585836746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671347585840033, "dur":4773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1671347585845052, "dur":59537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671347585904596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671347585904604, "dur":31495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671347585936265, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1671347585936786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671347585936793, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1671347585939051, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dkrha/Desktop/Roguenight_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1671347585939134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671347585939139, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dkrha/Desktop/Roguenight_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1671347585942897, "dur":166565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671347586115046, "dur":1862, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1671347586141970, "dur": 2879, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671347586140825, "dur": 4075, "ph": "X", "name": "Write chrome-trace events", "args": {} },
